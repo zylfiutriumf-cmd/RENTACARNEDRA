@@ -6,7 +6,7 @@ const ADDRESS = "Servis Ndera, Preševo, Serbia";
 const MAP_URL = `https://www.google.com/maps?q=${encodeURIComponent(ADDRESS)}&z=17&output=embed`;
 
 // Ngjite ketu celesin qe te vjen ne email nga web3forms.com
-const ACCESS_KEY = "21d23077-74df-4dea-afdc-82f8980b4be8";
+const ACCESS_KEY = "32d9a9d9-658b-461d-819c-ede0e7f51e19";
 
 export default function Contact({ t, info }) {
   const [form, setForm] = useState({ name: "", surname: "", phone: "", message: "" });
